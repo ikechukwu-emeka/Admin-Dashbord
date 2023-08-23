@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@700&family=Italianno&display=swap');
+body{
+    height: 100vh;
+    background:#05306d;
+}
+
+            /* Admin page */
+ .container-sm{
+         padding-top: 5%;
+ }
+h1{
+    color: white;
+    letter-spacing: 2px;
+}
+.mailBox{
+    width: 400px;
+    margin: auto;
+}
+.content{
+    color:white
+}
+.formholder{
+   border: 1px solid ;
+   border-radius: 9px;
+   background: rgb(17, 13, 39); 
+   border-color: white;
+}
+.account{
+    margin-right: 40%;
+    color: white;
+    text-decoration: none;
+}
+.sign{
+    color:white;
+    background-color: green;
+    font-weight: bold;
+}
+.button{
+    margin-left: 80%;
+    color:white;
+    background-color: green;
+    font-weight: bold; 
+}
+
+
+    /* ............................................. media queries............................................ */
+
+@media screen and (max-width:480px) {
+    .mailBox{
+        width: 150px;
+        margin: auto;
+    }
+    .account{
+        margin-right: 20%;
+        color: white;
+        text-decoration: none;
+    }
+.holder{
+    width: 200px;
+    height: fit-content;
+}
+h1{
+    font-size: 14px;
+}
+.button{
+    color:white;
+    width: 70px;
+    font-size: 12px;
+    background-color: green;
+}
+.sign{
+    color:white;
+    background-color: green;
+    font-weight: bold;
+    width: 60px;
+    margin-right: 40%;
+    font-size: 10px;
+}
+.sec-btn{
+    margin-left: 230px;
+    font-size: 12px;
+    width: 70px;
+    height: auto;
+}
+}
+
+
+
+
+
+
+
+
+            /* suggestion page */
+
+.contain{
+    padding-top: 10%;
+   }
+.heading{
+    color: white;
+}
+h5{
+    text-align: left;
+    margin-left: 50px;
+}
+.textArea{
+    resize: none;
+    width: 400px;
+    height: 100px;
+    color: rgb(114, 114, 111);
+    padding-top: 3px;
+    border-radius: 10px;
+}
+.holder{
+        border: 1px solid ;
+        border-radius: 9px;
+        background: rgb(17, 13, 39); 
+        border-color: white;
+}
+.footer{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    text-align: right;
+    margin-right: 20px;
+}
+.image{
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+/* .....................................media quries for suggestion page.................................... */
+
+@media screen and (max-width:480px) {
+    
+    .contain{
+        padding-top: 60%;
+       }
+    .image{
+        height: 70px;
+    }
+    h2{
+        font-size:20px;
+    }
+    .textArea{
+        width: 150px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .button{
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:480px){
+   .contain{
+    padding-top: 30%;
+   }
+    .image{
+        height: 120px;
+    }
+    h2{
+        font-size:30px;
+    }
+    .textArea{
+        width: 400px;
+    }
+    h5{
+        font-size: 20px;
+        
+    }
+    p{
+        font-size: 28px;
+        text-align: center;
+    }
+    .button{
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width:900px) and (min-width:600px){
+    .contain{
+     padding-top: 30%;
+    }
+    .holder{
+        width: 500px;
+    }
+     .image{
+         height: 130px;
+     }
+     h2{
+         font-size:35px;
+     }
+     .textArea{
+         width: 450px;
+     }
+     h5{
+         font-size: 20px;
+         
+     }
+     p{
+         font-size: 28px;
+         text-align: center;
+     }
+     .button{
+         margin-left: 10%;
+     }
+ 
+ }
+
+
+ @media screen and (max-width:1240px) and (min-width:900px){
+    .contain{
+     padding-top: 30%;
+     padding-bottom: 30%;
+    }
+    .holder{
+        width: 500px;
+    }
+     .image{
+         height: 150px;
+     }
+     h2{
+         font-size:35px;
+     }
+     .textArea{
+         width: 450px;
+     }
+     h5{
+         font-size: 20px;
+         
+     }
+     p{
+         font-size: 28px;
+         text-align: center;
+     }
+     .button{
+         margin-left: 10%;
+     }
+ 
+ }
+
+            /* Response page */
+.general{
+    padding-bottom: 50px;
+}
+.header{
+    margin-top:75px ;
+    margin-bottom: 30px;
+}
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.container{
+   color: white;
+   flex-basis: 70%;
+   margin: auto;
+   margin-bottom: 30px;
+   padding-left: 20px;
+   background-color: rgb(17, 13, 39);
+   width: 95%;
+   border-radius: 20px;
+   box-shadow:  4px 5px rgb(223, 223, 235);
+   
+}
+
+.footerDate{
+    text-align: right;
+    margin-right: 40px;
+    color: rgb(50, 80, 114);
+    font-weight: bolder;
+}
+.adjust{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    padding-top: 20px;
+}
+.pre{
+    color:white;
+    font-size: 3rem;
+    border-radius: 50px;
+    margin-left: 75%;
+    padding-bottom: 20px;
+   
+    
+}
+.next{
+    color:white;
+    border-radius: 50px;
+    font-size: 3rem;
+    align-items: right;
+}
+
+
+/* .....................................media quries for response page.................................... */
+@media screen and (max-width:480px) {
+    h1{
+        font-size:20px;
+        font-weight: bolder;
+
+    }
+    h5{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+    .pre{
+        color:white;
+        font-size: 2rem;
+        border-radius: 50px;
+        margin-left: 75%;
+        padding-bottom: 20px;
+       
+        
+    }
+    .next{
+        color:white;
+        border-radius: 50px;
+        font-size: 2rem;
+        align-items: right;
+    }
+}
+
+    @media screen and (max-width:600px) and (min-width:480px) {
+        h1{
+            font-size:40px;
+            font-weight: bolder;
+    
+        }
+        h5{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .pre{
+            color:white;
+            font-size: 2rem;
+            border-radius: 50px;
+            margin-left: 75%;
+            padding-bottom: 20px;
+           
+            
+        }
+        .next{
+            color:white;
+            border-radius: 50px;
+            font-size: 2rem;
+            align-items: right;
+        }
+ }
+    
